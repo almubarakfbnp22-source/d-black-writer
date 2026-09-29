@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D Black Writer — Poetry</title>
+<style>
+:root{--bg:#0b0b0d;--card:#141419;--text:#f5f1e8;--muted:#aaa6a0;--accent:#c9a96e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 80% 10%,#242019 0,#0b0b0d 34%);color:var(--text);font-family:Georgia,"Times New Roman",serif;line-height:1.7}
+nav{position:fixed;top:0;width:100%;z-index:10;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:rgba(11,11,13,.78);backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+.logo{font-size:20px;letter-spacing:2px}.logo span{color:var(--accent)}
+nav a{color:var(--muted);text-decoration:none;margin-left:25px;font-family:Arial,sans-serif;font-size:13px}
+nav a:hover{color:var(--text)}
+.hero{min-height:92vh;padding:160px 9% 90px;display:flex;align-items:center;max-width:1200px;margin:auto}
+.kicker{font:12px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(58px,10vw,120px);line-height:.88;margin:22px 0}.hero p{max-width:610px;color:var(--muted);font-size:20px}
+.btn{display:inline-block;margin-top:25px;padding:13px 23px;border:1px solid #ffffff30;color:var(--text);text-decoration:none;font:13px Arial,sans-serif;letter-spacing:1px}
+section{padding:90px 9%;max-width:1200px;margin:auto}.section-title{font-size:42px;margin:0 0 10px}.intro{color:var(--muted);max-width:620px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:38px}
+.card{background:linear-gradient(145deg,#18181e,#101014);border:1px solid #ffffff10;padding:35px;min-height:250px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:#c9a96e55}.tag{font:11px Arial,sans-serif;letter-spacing:2px;color:var(--accent);text-transform:uppercase}
+.card h3{font-size:30px;margin:15px 0}.card p{color:#bbb6ae}.read{color:var(--text);text-decoration:none;font:12px Arial,sans-serif;letter-spacing:1px}
+.feature{border-top:1px solid #ffffff18;border-bottom:1px solid #ffffff18;padding:80px 0;margin-top:30px}
+.feature h2{font-size:54px;margin:10px 0}.poem{font-size:20px;white-space:pre-line;color:#d8d2c8;max-width:700px}
+.quote{font-size:30px;font-style:italic;color:#e8dfd1;max-width:800px}
+.about{display:grid;grid-template-columns:280px 1fr;gap:70px;align-items:center}.about p{color:var(--muted)}.author-photo{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center;border-radius:4px;filter:grayscale(25%) contrast(1.05) brightness(.82);border:1px solid #c9a96e55;box-shadow:0 20px 60px #00000066}
+footer{padding:50px 9%;border-top:1px solid #ffffff12;color:#777;font:12px Arial,sans-serif;display:flex;justify-content:space-between}
+@media(max-width:700px){nav a{display:none}.hero{padding-top:130px}.grid,.about{grid-template-columns:1fr}.feature h2{font-size:40px}.section-title{font-size:34px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">D BLACK <span>WRITER</span></div><div><a href="#poems">POEMS</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></div></nav>
+
+<header class="hero">
+<div>
+<div class="kicker">Poetry • Thought • Life</div>
+<h1>Words<br>from the<br>dark.</h1>
+<p>A quiet place for poems about life, love, death, beauty, memory and the things we struggle to say aloud.</p>
+<a class="btn" href="#poems">ENTER THE POEMS ↓</a>
+</div>
+</header>
+
+<section id="poems">
+<div class="kicker">The collection</div>
+<h2 class="section-title">Recent poems</h2>
+<p class="intro">Some words are written to be read. Others are written because keeping them inside hurts more.</p>
+<div class="grid">
+<article class="card"><div class="tag">Life & Death</div><h3>The Invitation</h3><p>“What took you so long? I've been sending invitations all this while…”</p><a class="read" href="#invitation">READ POEM →</a></article>
+<article class="card"><div class="tag">Beauty & Wonder</div><h3>Beyond the First Glance</h3><p>A poem about meeting someone beautiful — and discovering that beauty was only the beginning.</p><a class="read" href="#glance">READ POEM →</a></article>
+<article class="card"><div class="tag">Work & Humanity</div><h3>Behind the Name Tag</h3><p>A reflection on the people behind the counters, the pressure they carry, and the worth that exists beyond job titles.</p><a class="read" href="#nametag">READ POEM →</a></article>
+<article class="card"><div class="tag">Nigeria & Hope</div><h3>Nigeria Cry But Hope Remain</h3><p>A letter to Nigeria about hardship, courage, violence, resilience and the hope for a better tomorrow.</p><a class="read" href="#nigeria">READ POEM →</a></article>
+</div>
+</section>
+
+<section class="feature" id="invitation">
+<div class="kicker">Featured poem</div>
+<h2>The Invitation</h2>
+<div class="poem">She asked me, if death came to me
+and looking into my eyes,
+what I would say.
+
+I would say,
+
+What took you so long?
+
+I've been sending invitations all this while,
+but you refused to show up.
+
+If I die, just box me up.
+I don't need a headstone,
+no name, no design.
+
+— D Black Writer</div>
+</section>
+
+<section class="feature" id="glance">
+<div class="kicker">Featured poem</div>
+<h2>Beyond the First Glance</h2>
+<div class="poem">She came to the bank
+not knowing she would leave
+with a poem written about her.
+
+Just another customer,
+another face passing through the doors,
+another ordinary day pretending to be ordinary.
+
+But then I saw her.
+
+A woman whose darkness did not ask for light,
+because she carried her own kind of glow.
+
+— D Black Writer</div>
+</section>
+
+<section class="feature" id="nametag">
+<div class="kicker">Work & Humanity</div>
+<h2>Behind the Name Tag</h2>
+<div class="poem">They see the smile... but never the pressure.
+The targets that steal our sleep.
+The customers we calm.
+The late nights we endure.
+Every morning, we wear our name tags—but quietly leave pieces of ourselves at the branch door.
+
+We stand behind the same counter, wear the same colours, and serve the same customers.
+Yet when the day is done, some are celebrated while others remain invisible.
+Experience bows to status, loyalty waits behind titles, and the hands that built the bridge are too often told they cannot cross it.
+
+Still, we return.
+Not because the burden is light, but because our families are waiting, our dreams refuse to die, and hope is the only salary no one can take from us.
+We are the silent strength behind every balanced account, every resolved complaint, every target achieved.
+
+So when you walk into a bank, remember this:
+behind every transaction is a human being carrying battles you'll never see.
+We are more than support.
+We are more than job titles.
+We are the voices of thousands whose sacrifices keep the doors open, still waiting for the day hard work is measured not by labels, but by worth.
+
+— D Black Writer</div>
+</section>
+
+<section class="feature" id="nigeria">
+<div class="kicker">Nigeria & Hope</div>
+<h2>Nigeria Cry But Hope Remain</h2>
+<div class="poem">Dear Nigeria...
+They call you the Giant of Africa, yet your children sleep with one eye open.
+A mother kisses her child goodbye for school, but spends the rest of the day praying that goodbye is not forever.
+The classroom has become a place of fear, and innocent voices have been replaced with cries that no child should ever know.
+
+Our streets are filled with hardworking people, yet empty pockets grow heavier every day.
+The farmer fears the journey to his own farm, the trader counts losses instead of profits, and the youth carry dreams bigger than their opportunities.
+Still, we wake each morning believing tomorrow must be kinder than today.
+
+To the families whose children and teachers were taken by violence, your tears are our tears.
+To the soldiers standing between danger and our homes, we salute your courage.
+To every Nigerian who refuses to surrender hope despite hardship, you remind us that strength is not the absence of pain—it is choosing to rise in the middle of it.
+
+Nigeria, you are bleeding, but you are not defeated.
+One day, the sound of children's laughter will drown out the echoes of gunfire.
+One day, justice will silence fear, peace will replace sorrow, and hope will no longer be a prayer but a reality.
+Until then, we will keep believing, because no darkness has ever defeated the promise of a new dawn.
+
+— D Black Writer</div>
+</section>
+
+<section id="about" class="about">
+<div><img class="author-photo" src="data:image/webp;base64,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" alt="D Black Writer"></div>
+<div><div class="kicker">The writer</div><h2 class="section-title">D Black Writer</h2></div>
+<div><p>I write about the things that live quietly inside people — the feelings we hide, the questions we ask at night, the beauty we notice unexpectedly, and the endings we rarely prepare for.</p><p>This is more than a collection of poems. It is a place where thoughts become words.</p></div>
+</section>
+
+<section id="contact">
+<div class="kicker">Stay connected</div>
+<h2 class="section-title">If a poem found you,<br>let it stay.</h2>
+<p class="intro">More poems coming soon.</p>
+</section>
+
+<footer><span>© 2026 D Black Writer</span><span>Written from somewhere between thought and silence.</span></footer>
+</body>
+</html>
